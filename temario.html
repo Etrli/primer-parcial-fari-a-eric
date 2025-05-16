@@ -11,9 +11,8 @@
 </head>
 
 <body class="flex-column min-vh-50">
-
-  <navbar class="navbar navbar-expand-lg navbar-dark bg-dark">
-
+  <!-- NAVEGADPR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">Guía Web</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -27,8 +26,8 @@
         </ul>
       </div>
     </div>
-  </navbar>
-
+  </nav>
+  <!-- HEADER -->
   <header class="text-dark text-center py-5">
     <div class="container">
       <h1 class="display-5">Temario del Curso</h1>
@@ -37,11 +36,14 @@
   </div>
 
 
-
+  <!-- MAIN -->
   <main class="container my-5">
     <article class="bg-white shadow rounded p-4">
       <section class="mb-5">
         <h2>Contenido de la Guía</h2>
+
+         <!-- ACCORDION -->
+
         <div class="accordion" id="temarioAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingHTML">
@@ -57,6 +59,7 @@
               </p>
             </div>
           </div>
+          <!-- CSS -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingCSS">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -64,6 +67,7 @@
                 CSS: Estilos y Diseño Visual
               </button>
             </h2>
+            <!-- CSS DESCRIPCION -->
             <div id="collapseCSS" class="accordion-collapse collapse">
               <p class="accordion-body">
                 Aplicá estilos a tus sitios web con propiedades como <code>color</code>, <code>font-size</code>,
@@ -72,6 +76,7 @@
               </p>
             </div>
           </div>
+          <!-- JAVASCRIPT -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingJS">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -79,6 +84,7 @@
                 JavaScript: Interactividad Básica
               </button>
             </h2>
+            <!-- JAVASCRIPT DESCRIPCION -->
             <div id="collapseJS" class="accordion-collapse collapse">
               <p class="accordion-body">
                 Incorporá lógica a tus sitios con JavaScript. Aprendé a manipular el DOM, responder a eventos y mostrar
@@ -86,6 +92,7 @@
               </p>
             </div>
           </div>
+          <!-- BOOTSTRAP -->
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingBootstrap">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -93,6 +100,7 @@
                 Bootstrap: Maquetación Moderna
               </button>
             </h2>
+            <!-- BOOTSTRAP DESCRIPCION -->
             <div id="collapseBootstrap" class="accordion-collapse collapse">
               <p class="accordion-body">
                 Descubrí cómo utilizar el framework Bootstrap para diseñar interfaces responsivas rápidamente usando
@@ -101,6 +109,7 @@
               </p>
             </div>
           </div>
+        </div>
       </section>
       </div>
 
