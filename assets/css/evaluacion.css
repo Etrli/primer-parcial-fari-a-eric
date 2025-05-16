@@ -1,5 +1,5 @@
 /* ==== Estilo general ==== */
-.body {
+body {
   font-family: "Segoe UI", sans-serif;
   background-color: #f8f9fa;
 }
@@ -10,7 +10,7 @@
 }
 
 /* ==== Header ==== */
-.header {
+header {
   background-color: #bb7a02;
 }
 
@@ -50,7 +50,7 @@
 }
 
 /* ==== Footer ==== */
-.footer {
+footer {
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
