@@ -5,8 +5,8 @@
 }
 
 /* ==== Navbar ==== */
-.navbar-nav .nav-link:hover {
-  color: #ffc75f;
+.navbar-nav,.nav-link:hover{
+  color: #bb7a02;
 }
 
 /* ==== Header ==== */
@@ -24,8 +24,8 @@
 }
 
 /* ==== Títulos y subtítulos ==== */
-.article h2,article h3 {
-  color: #442c00;
+.article,h2,h3{
+   color: #bb7a02;
   font-weight: bold;
 }
 
@@ -51,8 +51,8 @@
 
 /* ==== Footer ==== */
 .footer {
-  background-color: #212529;
   text-align: center;
   padding: 15px 0;
   margin-top: auto;
+  margin-bottom: 0 ;
 }
