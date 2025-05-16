@@ -10,34 +10,33 @@ body {
 }
 
 /* ==== Header ==== */
-header {
+.header {
   background-color: #bb7a02;
 }
 
-header h1 {
+.header h1 {
   font-weight: bold !important;
 }
 
 /* ==== Artículos ==== */
-article {
+.article {
   margin: 30px auto;
 }
 
 /* ==== Títulos y subtítulos ==== */
-article h2,
-article h3 {
+.article h2,article h3 {
   color: #442c00;
   font-weight: bold;
 }
 
 /* ==== Labels ==== */
-article label {
+.article label {
   color: #292421;
   font-size: 1rem;
 }
 
 /* ==== Formularios ==== */
-input.form-control {
+.input.form-control {
   border-radius: 8px;
   padding: 10px;
   border: 1px solid #dacecf;
@@ -51,7 +50,7 @@ input.form-control {
 }
 
 /* ==== Footer ==== */
-footer {
+.footer {
   background-color: #212529;
   text-align: center;
   padding: 15px 0;
